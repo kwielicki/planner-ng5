@@ -23,8 +23,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/sass/material/planner-theme.scss",
+              "src/sass/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+                "includePaths": [
+                    "node_modules/bootstrap/scss"
+                ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -72,7 +78,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+              "src/sass/styles.scss"
             ],
             "scripts": [],
             "assets": [
